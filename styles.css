@@ -1,0 +1,123 @@
+/* Michael Mouet - Module 2 Project 2*/
+
+/* TYPES */
+
+body {
+  margin: 0px;
+  font-family: helvetica;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: verdana;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: verdana;
+  
+}
+
+h3 {
+  font-size: 32px;
+  font-family: verdana;
+}
+
+h4 {
+  font-size: 22px;
+  opacity: 85%;
+
+}
+
+h5 {
+  font-size: 16px;
+  opacity: 85%;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+
+
+
+/* CLASSES */
+
+.section-one {
+  color: #FFFFFF;
+}
+
+.section-green {
+  background-color: #80C92E;
+  color: #FFFFFF;
+}
+
+.section-grey {
+  background-color: #343434;
+  color: #FFFFFF;
+}
+
+.section-white {
+  background-color: #FFFFFF;
+}
+
+.btn {
+  background-color: #80C92E;
+  border-color: #80C92E;
+  border-radius: 30px;
+  padding: 15px 25px;
+}
+
+.fa-thumbtack {
+  color: #80C92E;
+}
+
+
+
+
+/* ID's */
+
+#background-image {
+  background-image: url('internet-image.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#white-button {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #343434;
+}
+
+#mic-image {
+  border-radius: 55%;
+  height: 35vh;
+  width: 28vw;
+  object-fit: cover;
+}
+
+#nature-image {
+  border-radius: 55%;
+  height: 35vh;
+  width: 28vw;
+  object-fit: cover;
+}
+
+#unleash-image {
+  background-image: url('https://www.toeflgoanywhere.org/sites/default/files/blog/article_photos/toeflblog080315.jpg');
+  background-size: cover;
+  height: 25vh;
+}
+
+#syn-image {
+  background-image: url('https://nypost.com/wp-content/uploads/sites/2/2020/05/concert-pandemic-54.jpg?quality=80&strip=all');
+  background-size: cover;
+  height: 25vh;
+}
+
+#pro-image {
+  background-image: url('https://cdn.pixabay.com/photo/2018/01/01/21/00/close-up-3054945_960_720.jpg');
+  background-size: cover;
+  height: 25vh;
+}
