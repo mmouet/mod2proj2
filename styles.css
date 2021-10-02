@@ -5,6 +5,8 @@
 body {
   margin: 0px;
   font-family: helvetica;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 h1 {
@@ -26,46 +28,96 @@ h3 {
 h4 {
   font-size: 22px;
   opacity: 85%;
+  color: #F2F2F2;
 
 }
 
 h5 {
   font-size: 16px;
   opacity: 85%;
+  color: #F2F2F2;
 }
 
 h6 {
   font-size: 14px;
 }
 
+p {
+  font-size: 22px;
+  opacity: 65%;
+  color: #252525;
+}
 
-
+a:hover {
+  color: #80C92E;
+}
 
 /* CLASSES */
 
+.navbar {
+  padding: 0px 24em;
+}
+
 .section-one {
-  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20% 0px;
 }
 
-.section-green {
+.section-two { 
   background-color: #80C92E;
-  color: #FFFFFF;
+  padding: 5em 32em;
 }
 
-.section-grey {
-  background-color: #343434;
-  color: #FFFFFF;
-}
-
-.section-white {
+.section-three {
   background-color: #FFFFFF;
+  color: #000000;
+  padding: 8em 24em;
+  text-align: left;
 }
+
+.section-four {
+  background-color: #343434;
+  padding: 7em 24em;
+  text-align: left;
+}
+
+.three-images {
+  padding: 0px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-six {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 3em 24em;
+}
+
+.section-seven {
+  background-color: #80C92E;
+  padding: 7em 32em;
+}
+
+.section-eight {
+  background-color: #FFFFFF;
+  color: #1A1A1A;
+  padding: 3em 32em;
+}
+
 
 .btn {
   background-color: #80C92E;
   border-color: #80C92E;
   border-radius: 30px;
   padding: 15px 25px;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  border-color: #80C92E;
+  color: #80C92E;
 }
 
 .fa-thumbtack {
@@ -80,6 +132,7 @@ h6 {
 #background-image {
   background-image: url('internet-image.jpg');
   height: 100vh;
+  width: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -92,15 +145,15 @@ h6 {
 
 #mic-image {
   border-radius: 55%;
-  height: 35vh;
-  width: 28vw;
+  height: auto;
+  width: 100%;
   object-fit: cover;
 }
 
 #nature-image {
   border-radius: 55%;
-  height: 35vh;
-  width: 28vw;
+  height: auto;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -108,16 +161,95 @@ h6 {
   background-image: url('https://www.toeflgoanywhere.org/sites/default/files/blog/article_photos/toeflblog080315.jpg');
   background-size: cover;
   height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #syn-image {
   background-image: url('https://nypost.com/wp-content/uploads/sites/2/2020/05/concert-pandemic-54.jpg?quality=80&strip=all');
   background-size: cover;
   height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #pro-image {
   background-image: url('https://cdn.pixabay.com/photo/2018/01/01/21/00/close-up-3054945_960_720.jpg');
   background-size: cover;
   height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
+
+
+
+
+
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+
+  h1 {
+    font-size: 50px;
+  }
+
+
+  .navbar {
+    padding: 7px 0px;
+    background-color: #80C92E;
+  }
+
+  .navbar-nav {
+    text-align: left;
+  }
+
+  .section-one {
+    padding: 5em 1em;
+  }
+
+  .drama-h1 {
+    padding: 15px 0px 0px 0px;
+  }
+
+  .section-one-h5 {
+    padding: 20px 0px 40px 0px;
+  }
+
+  .section-two { 
+    padding: 5em 1em;
+  }
+
+  .section-three {
+    padding: 5em 1em;
+  }
+
+  .section-four {
+    padding: 5em 1em;
+  }
+
+  .section-six {
+    padding: 5em 1em;
+  }
+
+  .section-seven {
+    padding: 5em 0em;
+  }
+
+  .section-eight {
+    padding: 3em 0em;
+  }
+
+
+
+  #background-image {
+    height: 100%;
+  }
+
+
+}  
