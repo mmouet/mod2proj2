@@ -3,10 +3,8 @@
 /* TYPES */
 
 body {
-  margin: 0px;
   font-family: helvetica;
   color: #FFFFFF;
-  text-align: center;
 }
 
 h1 {
@@ -55,36 +53,34 @@ a:hover {
 /* CLASSES */
 
 .navbar {
-  padding: 0px 24em;
+ padding: 0 24em;
 }
 
 .section-one {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 20% 0px;
+  padding: 20% 0;
 }
 
 .section-two { 
   background-color: #80C92E;
-  padding: 5em 32em;
+  padding: 7em 33em;
 }
 
 .section-three {
   background-color: #FFFFFF;
   color: #000000;
   padding: 8em 24em;
-  text-align: left;
 }
 
 .section-four {
   background-color: #343434;
   padding: 7em 24em;
-  text-align: left;
 }
 
 .three-images {
-  padding: 0px;
+  padding: 0;
   color: #fff;
   text-decoration: none;
 }
@@ -201,7 +197,7 @@ a:hover {
 
 
   .navbar {
-    padding: 7px 0px;
+    padding: 7px 0;
     background-color: #80C92E;
   }
 
@@ -214,11 +210,11 @@ a:hover {
   }
 
   .drama-h1 {
-    padding: 15px 0px 0px 0px;
+    padding: 15px 0 0 0;
   }
 
   .section-one-h5 {
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0 40px 0;
   }
 
   .section-two { 
@@ -238,11 +234,11 @@ a:hover {
   }
 
   .section-seven {
-    padding: 5em 0em;
+    padding: 5em 0;
   }
 
   .section-eight {
-    padding: 3em 0em;
+    padding: 3em 0;
   }
 
 
